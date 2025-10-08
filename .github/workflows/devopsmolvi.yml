@@ -34,6 +34,6 @@ jobs:
         uses: aws-actions/amazon-ecs-deploy-task-definition@v1
         with:
           task-definition: ecs-task.json
-          service: node-ecs-service-1
-          cluster: devopsmolvi-ecs
+          service: sharks-ecs-srv
+          cluster: sharks-app-cluster
           wait-for-service-stability: true            
