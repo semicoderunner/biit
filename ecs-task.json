@@ -1,5 +1,5 @@
 {
-  "family": "sharks-ecs",
+  "family": "devopsmolvi-ecs",
   "networkMode": "awsvpc",
   "executionRoleArn": "arn:aws:iam::559050236729:role/ecsTaskExecutionRole",
   "containerDefinitions": [
